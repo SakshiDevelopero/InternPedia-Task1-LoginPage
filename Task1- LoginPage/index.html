@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+</head>
+
+<body>
+    <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: rgb(133, 133, 134); font-size: 20px; margin-bottom: 50px;">InternPedia Internship Task 1- Login Page</h2>
+    <div class="container" id="container">
+        
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-1525921585%3A1707313588436767&theme=glif" class="icon" target="_blank"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="https://www.facebook.com/" class="icon" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://github.com/" class="icon" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/login" class="icon" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#" style="text-decoration: underline">Forget Your Password?</a>
+                <button><a href="proj1.html">Login In</a></button></a>              
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back !</h1>
+                    <p>Enter your personal details to use all of site features</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome, Friend!</h1>
+                    <p>If You Don't Have Any Account Please Create Your Account...</p>
+                    <button class="hidden" id="register">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+
+</html>
